@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.icons{
+    width: 100%;
+    background: blueviolet;
+    overflow: hidden;
+}
+
+.icons a{
+    width: 20%;
+    padding: 12px 0;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+.icons a:hover{
+    background: green;
+}
+
+.active{
+    background: green;
+}
